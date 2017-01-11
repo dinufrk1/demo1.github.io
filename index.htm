@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Roundfolio - WeGraphics 1 Page Portfoilio Template</title>
+<link href='http://fonts.googleapis.com/css?family=Cantarell|Oswald' rel='stylesheet' type='text/css'>
+<link href="styles.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="nivo/default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="prettyphoto/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+
+<script type="text/javascript" src="nivo/jquery-1.6.1.min.js"></script>
+<script src="prettyphoto/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+
+   <script type="text/javascript">
+		$(document).ready(function(){
+		//Set opacity on each span to 0%
+		$(".rollover").css({'opacity':'0'});
+		 
+		$('#gallery a.item').hover(
+			function() {
+				$(this).find('.rollover').stop().fadeTo(500, 1);
+			},
+			function() {
+				$(this).find('.rollover').stop().fadeTo(500, 0);
+			}
+		)
+		});
+	</script>
+</head>
+
+<body>
+<div id="container">
+	<!---BEGIN Header--->
+	<div id="header">
+    	<div id="header-logo"><h1>Roundfolio from WeGraphics</h1></div>
+        <div id="header-tag"><h2>A circle is the reflection of eternity.</h2></div>
+        <div id="header-social">
+        	<div id="header-rss"><a href="#">1,001 Subscribers</a></div>
+        	<ul>
+            	<li><a href="#" class="stumble">StumbleUpon</a></li>
+                <li><a href="#" class="float">Design Float</a></li>
+                <li><a href="#" class="facebook">Facebook</a></li>
+                <li><a href="#" class="flickr">Flickr</a></li>
+                <li><a href="#" class="twitter">Twitter</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <!---BEGIN Slider--->
+    <div class="slider-wrapper theme-default">
+            <span id="slider-shadow"></span>
+            <div id="slider" class="nivoSlider">
+                <a href="#"><img src="images/slider/slider-img-1.jpg" alt="" title="#htmlcaption1" /></a>
+                <a href="#"><img src="images/slider/slider-img-2.jpg" alt="" title="#htmlcaption2" /></a>
+                <a href="#"><img src="images/slider/slider-img-3.jpg" alt="" title="#htmlcaption3" /></a>
+                <a href="#"><img src="images/slider/slider-img-4.jpg" alt="" title="#htmlcaption4" /></a>
+                <a href="#"><img src="images/slider/slider-img-5.jpg" alt="" title="#htmlcaption5" /></a>
+            </div>
+            <div id="htmlcaption1" class="nivo-html-caption">
+                <strong>Lorem ipsum dolor sit amet</strong> consectetur adipiscing elit. Donec vulputate convallis metus, id sollicitudin leo convallis at. 
+                Nam posuere elit eu sem.
+            </div>
+            <div id="htmlcaption2" class="nivo-html-caption">
+                <strong>Consectetur adipiscing elit.</strong> Lorem ipsum dolor sit amet. consectetur adipiscing elit. Donec vulputate convallis metus, id sollicitudin leo convallis at. 
+                Nam posuere elit eu sem.
+            </div>
+            <div id="htmlcaption3" class="nivo-html-caption">
+                <strong>Donec vulputate convallis metus.</strong> consectetur adipiscing elit. Lorem ipsum dolor sit amet, id sollicitudin leo convallis at. 
+                Nam posuere elit eu sem lacinia.
+            </div>
+            <div id="htmlcaption4" class="nivo-html-caption">
+                <strong>Lorem ipsum dolor sit amet</strong> consectetur adipiscing elit. Donec vulputate convallis metus, id sollicitudin leo convallis at. 
+                Nam posuere elit eu sem lacinia.. 
+            </div>
+            <div id="htmlcaption5" class="nivo-html-caption">
+                <strong>Id sollicitudin leo convallis at</strong> consectetur adipiscing elit. Donec vulputate convallis metus, id sollicitudin leo convallis at. 
+                Nam posuere elit eu sem.
+            </div>
+        </div>
+        
+        <!---BEGIN Portfolio Gallery--->
+        <div id="gallery">
+            <div id="title-divider"><h3>Portfolio Gallery</h3></div>
+            <a href="images/gallery/gallery-full1.jpg" class="item" rel="prettyPhoto[gallery1]"><span class="rollover"></span><span class="gallery-shadow"></span><img src="images/gallery/gallery-thumb1.jpg"/></a>
+            <a href="images/gallery/gallery-full2.jpg" class="item" rel="prettyPhoto[gallery1]"><span class="rollover"></span><span class="gallery-shadow"></span><img src="images/gallery/gallery-thumb2.jpg"/></a>
+            <a href="images/gallery/gallery-full3.jpg" class="item" rel="prettyPhoto[gallery1]"><span class="rollover"></span><span class="gallery-shadow"></span><img src="images/gallery/gallery-thumb3.jpg"/></a>
+            <a href="images/gallery/gallery-full4.jpg" class="item" rel="prettyPhoto[gallery1]"><span class="rollover"></span><span class="gallery-shadow"></span><img src="images/gallery/gallery-thumb4.jpg"/></a>
+            <a href="images/gallery/gallery-full5.jpg" class="item" rel="prettyPhoto[gallery1]"><span class="rollover"></span><span class="gallery-shadow"></span><img src="images/gallery/gallery-thumb5.jpg"/></a>
+            <a href="images/gallery/gallery-full6.jpg" class="item" rel="prettyPhoto[gallery1]"><span class="rollover"></span><span class="gallery-shadow"></span><img src="images/gallery/gallery-thumb6.jpg"/></a>
+            <a href="images/gallery/gallery-full7.jpg" class="item" rel="prettyPhoto[gallery1]"><span class="rollover"></span><span class="gallery-shadow"></span><img src="images/gallery/gallery-thumb7.jpg"/></a>
+            <a href="images/gallery/gallery-full8.jpg" class="item" rel="prettyPhoto[gallery1]"><span class="rollover"></span><span class="gallery-shadow"></span><img src="images/gallery/gallery-thumb8.jpg"/></a>
+            <a href="images/gallery/gallery-full9.jpg" class="item" rel="prettyPhoto[gallery1]"><span class="rollover"></span><span class="gallery-shadow"></span><img src="images/gallery/gallery-thumb9.jpg"/></a>
+            <a href="images/gallery/gallery-full10.jpg" class="item" rel="prettyPhoto[gallery1]"><span class="rollover"></span><span class="gallery-shadow"></span><img src="images/gallery/gallery-thumb10.jpg"/></a>
+        </div>
+        
+        <!---BEGIN Client Gallery--->
+        <div id="clients">
+            <div id="title-divider"><h3>Recent Clients</h3></div>
+            <div id="client-container">
+            	<a href="#"><img src="images/clients/client-logo1.png" /></a>
+                <a href="#"><img src="images/clients/client-logo2.png" /></a>
+                <a href="#"><img src="images/clients/client-logo3.png" /></a>
+                <a href="#"><img src="images/clients/client-logo4.png" /></a>
+                <a href="#"><img src="images/clients/client-logo5.png" /></a>
+                <a href="#"><img src="images/clients/client-logo6.png" /></a>
+            </div>
+        </div>
+        
+        <div id="sub-container">
+        <!---BEGIN About Me--->
+        <div id="about">
+            <div id="title-sub-divider"><h3>About Me</h3></div>
+            <div id="about-col1">
+            <div id="about-photo">
+            	<span class="about-img-shadow"></span>
+            	<img src="images/about-photo.jpg" />
+            </div>
+            	<ul>
+                    <li><a href="#">@Roundfolio</a><li>
+                    <li><a href="#">Facebook</a><li>
+                    <li><a href="#">Behance</a><li>
+                    <li><a href="#">deviantART</a><li>
+                    <li><a href="#">Dribble</a><li>
+                </ul>
+            </div>
+            <div id="about-col2">
+           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fermentum sollicitudin libero eget consectetur. Donec eu nulla in erat tincidunt accumsan. Donec semper consequat consequat. Duis in ligula sapien. Suspendisse fringilla lacus eu odio blandit tincidunt. Mauris viverra egestas faucibus. Donec nec sodales nibh. </p>
+
+<p>Donec malesuada, enim ut ornare pellentesque, mi enim feugiat enim, molestie scelerisque velit sapien id nisl. Donec ultricies, felis ut mollis aliquet, sapien diam tempus risus, nec pretium ipsum dolor id mi. Donec vitae est ac metus elementum rhoncus et eu </p>
+            </div>
+        </div>
+        
+        <!---BEGIN Contact Form--->
+        <div id="contact">
+        <div id="title-sub-divider"><h3>Contact</h3></div>
+        	<form id="contact-form">
+                <input type="text" name="name" id="name" value="Your Name" />
+                <input type="text" name="email" id="email" value="Your Email Address" />
+                <textarea id="comment"></textarea>
+                <input type="submit" value="submit" id="submit" />
+            </form>
+        </div>
+        
+        </div>
+</div>
+        
+<!---BEGIN Footer--->
+<div id="footer">
+	<div id="footer-container">
+    	<div id="footer-flickr">
+        <h3>Flickr</h3>
+            <a href="#" class="flickr-item"><span id="flickr-shadow"></span><img src="images/flickr/img1.jpg" /></a>
+            <a href="#" class="flickr-item"><span id="flickr-shadow"></span><img src="images/flickr/img2.jpg" /></a>
+            <a href="#" class="flickr-item"><span id="flickr-shadow"></span><img src="images/flickr/img3.jpg" /></a>
+            <a href="#" class="flickr-item"><span id="flickr-shadow"></span><img src="images/flickr/img4.jpg" /></a>
+            <a href="#" class="flickr-item"><span id="flickr-shadow"></span><img src="images/flickr/img5.jpg" /></a>
+            <a href="#" class="flickr-item"><span id="flickr-shadow"></span><img src="images/flickr/img6.jpg" /></a>
+            <a href="#" class="flickr-item"><span id="flickr-shadow"></span><img src="images/flickr/img7.jpg" /></a>
+            <a href="#" class="flickr-item"><span id="flickr-shadow"></span><img src="images/flickr/img8.jpg" /></a>
+            <a href="#" class="flickr-item"><span id="flickr-shadow"></span><img src="images/flickr/img9.jpg" /></a>
+        </div>
+        <div id="footer-facebook">
+        <h3>Facebook</h3>
+            <div id="fb-comment"><img src="images/fb-avatar-1.png" />Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+            <div id="fb-comment"><img src="images/fb-avatar-2.png" />Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+            <div id="fb-comment"><img src="images/fb-avatar-3.png" />Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+        </div>
+        <div id="footer-tweet">
+        	<div id="footer-tweet-container">
+            	<h3>Tweet</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="#">10 minutes ago</a></p>
+                <p>Doec eu nulla in erat tincidunt accumsan. Donec semper. <a href="#">2 hours ago</a></p> 
+                <p><a href="#">@WeGraphics</a> fringilla lacus eu odio blandit tincidunt. <a href="#">1 day ago</a></p> 
+            </div>
+        </div>
+    </div>
+</div>
+        
+
+    <script type="text/javascript" src="nivo/jquery.nivo.slider.pack.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider({
+			effect:'random', 
+            slices:15,  
+            animSpeed:500, 
+            pauseTime:5000
+			});
+    });
+    </script>
+    
+    <script type="text/javascript" charset="utf-8">
+	$(document).ready(function(){
+		$("a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'normal', theme:'dark_rounded', social_tools:false, slideshow:false, autoplay_slideshow: false});
+		$(".image a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'normal', theme:'dark_rounded', social_tools:false, slideshow:false, autoplay_slideshow: false});
+	});
+	</script>
+</body>
+</html>
